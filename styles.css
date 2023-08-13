@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Gilroy;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ego {
+    width: 20%;
+    height: 80%;
+    background-color: #B2F100;
+    margin-left: 30px;
+}
+.m {
+    width: 35%;
+    height: 80%;
+    background-color: #C5B6F1;
+    overflow: hidden;
+}
+.tips {
+    width: 35%;
+    height: 80%;
+    background-color: #014550;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.egotext {
+    width: 100%;
+    height: 80%;
+    /* background-color: #000; */
+    
+
+    
+}
+
+.egotext h1 {
+    font-size:12vw;
+    font-family: Gilroy;
+    font-weight: normal;
+
+
+}
+/* .e {
+    /* background-color: red; 
+}
+*/
+
+
+.g {
+    /* background-color: rebeccapurple; */
+    position: relative;
+}
+.g h1 {
+    align-items: end;
+    position: absolute;
+    top: 7%;
+    right: 0%;
+    font-weight: bold;
+}
+
+.o {
+    /* background-color: rebeccapurple; */
+    margin-top: 100px;
+    margin-left: -10px;
+}
+
+
+
+.egobtm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+
+}
+
+.egobtm h4 {
+    font-weight: normal;
+    columns: #000;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+
+
+}
+ .egobtm img {
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+ }
+
+.mupper {
+    width: 100%;
+    height: 40%;
+    /* background-color: pink; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.mupper h4 {
+    font-weight: normal;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.mupper img {
+    margin-right: 10px;
+    width: full;
+    /* mix-blend-mode: ; */
+}
+
+.mlower {
+    width: 100%;
+    height: 60%;
+    background-color: rgb(50, 78, 214);
+    
+}
+
+.mlower h1  {
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: 40px;
+    margin-left: 10px;
+    color: #DCB5AD;
+}
+.mlower h1 span {
+    font-weight: bold;
+    color: #000;
+}
+
+.mbtm {
+    /* width: 100%; */
+    /* background-color: red; */
+    height: 48%;
+    
+    margin: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.div {
+    width: 95%;
+    height: 80%;
+    /* background-color: black; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.one p {
+    font-size: 10px;
+}
+.two p {
+    font-size: 10px;
+}
+.three p {
+    font-size: 10px;
+}
+
+.tone{
+    width: 90%;
+    height: 25%;
+    /* background-color: red; */
+    color: #04E08F;
+}
+.ttwo{
+    width: 90%;
+    height: 40%;
+    /* background-color: rgb(93, 98, 202); */
+    margin-top: 5px;
+}
+
+
+.ttwo img {
+    width: 400px;
+    object-fit: cover;
+    mix-blend-mode: screen;
+}
+.tthree{
+    width: 90%;
+    height: 35%;
+    /* background-color: rgb(235, 252, 124); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.tone h1 {
+    font-weight: normal;
+    padding: 10px 0px;
+    font-size: 28px;
+    border-bottom: 2px solid #04E08F;
+}
+
+.med h3 {
+    color: #04E08F;
+    font-weight: lighter;
+}
+
+.para1 p {
+    font-size: 10px;
+    font-weight: normal;
+    color: #04E08F;
+}
+.para2 p {
+    font-size: 10px;
+    font-weight: normal;
+    color: #04E08F;
+}
+
+.para2 h5 {
+    font-weight:10px;
+    color: #04E08F;
+}
+
+.para2 hr {
+    
+}
